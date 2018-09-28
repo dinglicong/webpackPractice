@@ -19,7 +19,10 @@ module.exports = {
             // name: 'common',
             minChunks: 2,
 			minSize: 0,
-        }
+        },
+		runtimeChunk: {
+			name: "manifest",
+		},
     },
     plugins: [
         new CleanWebpackPlugin(['dist'])
