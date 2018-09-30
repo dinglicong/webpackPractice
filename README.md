@@ -47,7 +47,8 @@ webpack打包出来的代码如何调试？
 |hidden-source-map|--|--|yes|原始源代码|
 |nosources-source-map|--|--|yes|无源代码内容|
 
-###品质说明(quality)###
+
+### 品质说明(quality) ###
 
 `打包后的代码` - 将所有生成的代码视为一大块代码。你看不到相互分离的模块。
 
