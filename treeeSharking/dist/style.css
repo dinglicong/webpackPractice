@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 重置浏览器样式 */
+
+html {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+body,div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  height: 100%;
+  _zoom: 1;
+}
+
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #0d7fe4;
+  text-decoration: none;
+}
+
+.box {
+  text-align: center;
+}
