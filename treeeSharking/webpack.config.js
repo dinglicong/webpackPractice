@@ -57,6 +57,10 @@ module.exports  = {
 	},
 	optimization: {
 		minimize: true,
+		// 分离manifest
+// 		runtimeChunk: {
+// 			name: "manifest",
+// 		},
 // 		minimizer: [
 // 			new UglifyJsWebpackPlugin({
 // 				test: /.js($|\?)/i,
